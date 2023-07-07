@@ -55,7 +55,11 @@
         <div
           class="collapse navbar-collapse"
           id="navbarResponsive"
-          style="text-align: right"
+          style="
+            justify-content: right;
+            align-self: right;
+            align-content: right;
+          "
         >
           <ul class="nav navbar-item ml-auto fixed">
             <li class="nav-item active">
@@ -203,17 +207,16 @@
         </div>
       </div>
 
-      <div class="container container1">
+      <div class="container container1" style="position: relative">
         <div class="image-overlay">
           <img
             src="images/video-bg.png"
             class="img-fluid"
             alt="Responsive image"
           />
-          <div>
-            <i class="fa-regular fa-circle-play text-white play-button"></i>
-          </div>
+
           <div class="image-text">
+            <i class="fa-regular fa-circle-play text-white fs-1"></i>
             <p class="text-white">Watch our last tour</p>
           </div>
         </div>
@@ -330,7 +333,7 @@
           margin: 10,
           nav: true,
           navText: [
-            "<i class='fa fa-angle-left' style='right:0;'></i>",
+            "<i class='fa fa-angle-left'></i>",
             "<i class='fa fa-angle-right'></i>",
           ],
           responsive: {

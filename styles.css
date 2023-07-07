@@ -416,10 +416,15 @@ ul{
     margin: 0;
   }
   
-.carousel .owl-next
-{
-  right:0;
+  .owl-prev, .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
 }
-.carousel .owl-prev{
-  left:0;
-}
+.owl-prev { left: 20px; }
+.owl-next { right: 20px; }
+.owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;}
