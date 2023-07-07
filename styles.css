@@ -13,15 +13,9 @@ a
     padding: 10px; 
 
 }
-.navlinks
-{
-    width:50%;
-    position: relative;
-    left:700px;
-    top:-55px;
-    font-weight: bold;
+.nav-div{
+  background-color: #595959; padding: 10px; width:100%; text-align: right;
 }
-
 .ctnbtn
 {
     background-color: #FFD700;
@@ -71,45 +65,33 @@ a
     text-align: center;
 }
 .car-img {
-    max-width: 100%; /* Ensures the div doesn't exceed the parent width */
-    height: auto; /* Allows the height to adjust proportionally */
-    margin: 0 auto; /* Centers the div horizontally */
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
   }
   
   .car-img img {
-    width: 100%; /* Makes the image fill the div horizontally */
-    height: auto; /* Allows the image to adjust its height proportionally */
+    width: 100%; 
+    height: auto; 
   }
   
   /* Media Queries */
   
   /* Small screens */
-  @media screen and (max-width: 600px) {
-    .car-img {
-      /* Define your styles for small screens here */
+  @media screen and (min-width: 600px) {
+    .nav-div {
+      background-color: white;
     }
   }
-  
-  /* Medium screens */
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .car-img {
-      /* Define your styles for medium screens here */
-    }
-  }
-  
-  /* Large screens */
-  @media screen and (min-width: 1025px) {
-    .car-img {
-      /* Define your styles for large screens here */
-    }
-  }
-  
 
+  @media (max-width: 600px) {
+    .owl-nav { display: none !important; }
+  }
+ 
 .events
 {
     margin-top: 100px;
     text-align: center;
-
 }
 .event-h1
 {
@@ -119,8 +101,6 @@ a
 {
     color:#23125F;
 }
-
-
 .about {
     margin: 50px;
     padding: 50px;
@@ -175,7 +155,6 @@ a
 .customer
 {
     background-image: linear-gradient(to right,#6fa7f0, rgb(176, 164, 223),rgb(189, 184, 211),#d1b0be,#ee91c7);
-    padding:100px;
     text-align: center;
 }
 .cust_heading
@@ -199,27 +178,6 @@ a
 {
     margin-top: -10px;
     color: white;
-}
-.video{
-    margin-top: 10%;
-    align-content: center;
-}
-.video_icon
-{
-    color: white;
-    margin-top: -350px;
-    margin-left: 70px;
-}
-.video_des{
-    margin-top: -300px;
-    margin-left: 30px;
-    color: white;
-    font-size: 25px;
-}
-.images
-{
-   width:80%;
-   height:80%
 }
 .footer
 {
@@ -290,13 +248,7 @@ ul{
 
 }
 
-
-
-
-/* Event classes */
-.slider{
-    overflow-x: auto;
-}
+/* Event CSS classes */
 .contain{
     display: flex;
 }
@@ -356,10 +308,6 @@ ul{
       width: 100%;
     }
   }
-
-
-
-  
 .container1 {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -370,19 +318,6 @@ ul{
     position: relative;
     display: inline-block;
   }
-  
-  .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%; /* Adjust the size of the play button */
-    height: 30%; /* Adjust the size of the play button */
-    background-size: cover;
-    margin: 10%;
-    z-index: 1; /* Ensure the play button is displayed above the image text */
-  }
-  
   .image-text {
     position: absolute;
     top: 50%;
@@ -401,21 +336,11 @@ ul{
     .container1 {
       margin-top: 5%;
     }
-  
-    .play-button {
-      padding-top: 20%;
-    }
-  
     .image-text {
       font-size: 18px;
     }
+
   }
-  
-  
-  .image-text p {
-    margin: 0;
-  }
-  
   .owl-prev, .owl-next {
     width: 15px;
     height: 100px;
