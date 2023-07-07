@@ -1,0 +1,355 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    color:#23125F; 
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    margin-top:-10px;
+    text-decoration: none;  
+    font-size: 16px;
+    padding: 10px; 
+
+}
+.nav-div{
+  background-color: #595959; padding: 10px; width:100%; text-align: right;
+}
+.ctnbtn
+{
+    background-color: #FFD700;
+    border:none;
+    margin-left:20px;
+    border-radius: 5px;
+}
+.btn_text
+{
+    font-size: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.home
+{
+    color:#23125F; 
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.subline
+{
+    color:#23125F; 
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.homebtn
+{
+    background-image: linear-gradient(#342958, #23125F,#100538);
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    border:none;
+    padding:15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.divhome{
+    text-align: center;
+}
+.car-img {
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
+  }
+  
+  .car-img img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  /* Media Queries */
+  
+  /* Small screens */
+  @media screen and (min-width: 600px) {
+    .nav-div {
+      background-color: white;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .owl-nav { display: none !important; }
+  }
+ 
+.events
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.event-h1
+{
+    color:rgb(155, 181, 238); 
+}
+.event-h2
+{
+    color:#23125F;
+}
+.about {
+    margin: 50px;
+    padding: 50px;
+  }
+  
+  .about_btn {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .about_text {
+    margin-left: 100px;
+  }
+  
+  .about_heading {
+    color: rgb(155, 181, 238);
+    font-size: 15px;
+  }
+  
+  .about_subline {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .about_des {
+    color: #6e6885;
+  }
+
+  .bottom-slider div{
+    margin-right: 0px !important;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .about_text {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .about_subline {
+      font-size: 30px;
+    }
+  }
+  
+.customer
+{
+    background-image: linear-gradient(to right,#6fa7f0, rgb(176, 164, 223),rgb(189, 184, 211),#d1b0be,#ee91c7);
+    text-align: center;
+}
+.cust_heading
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.cust_des
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.ceo_name
+{
+    color: white;
+    font-weight: bold;
+}
+.ceo_des
+{
+    margin-top: -10px;
+    color: white;
+}
+.footer
+{
+    padding-top: 100px;
+    background-color: #23125F;
+    color: grey;
+    line-height: 40px;
+}
+.footer-contact ul li a
+{
+    color: grey;
+    margin-bottom: 30px;
+
+}
+.footer-contact
+{
+    color: white;
+    margin-bottom: 100px;
+
+}
+ul{
+    list-style: none;
+}
+.social_links
+{
+    color: rgb(17, 25, 141);
+    margin-bottom: 30px;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin:0 10px 10px 0;
+    padding: 2px;
+    text-align: center;
+    border-radius: 20%;
+}
+.text1{
+    font-size: 15px;
+    color: grey;
+    line-height: normal;
+}
+.text2{
+    font-size: 15px;
+    color: grey;
+    line-height: 40px;
+}
+.text3
+{
+    font-size: 15px;
+    color: grey;
+    line-height: 40px;
+    text-align: center;
+}
+.num
+{
+    color: #FFD700 ;
+    font-size: 20px;
+}
+.word
+{
+    color: #FFD700 ;
+}
+
+
+.end-line
+{
+    text-align: center;
+
+}
+
+/* Event CSS classes */
+.contain{
+    display: flex;
+}
+.card
+{
+   width: 450px;
+   margin:10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-image
+{
+    height:200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card-1
+{
+    background-image: url('images/service3.png');
+}
+.card-2
+{
+    background-image: url('images/service2.png');
+}
+.card-3
+{
+    background-image: url('images/service1.png');
+}
+.name{
+    font-size:20px;
+    margin: 10px;
+ }
+ .date{
+     color:rgb(155, 181, 238);
+     margin-left:20px;
+     background-color: #e4e4e4;
+     border-radius: 25px;
+     padding: 10px;
+     font-size: 15px;
+ }
+ .price
+ {
+     color:rgb(155, 181, 238);
+     font-size:20px;
+     margin: 10px;
+     margin-left: 100px;
+ }
+ .days
+ {
+     margin-left: 20px;
+     padding: 10px;
+ }
+@media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 100%;
+    }
+  }
+.container1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+  }
+  
+  .image-overlay {
+    position: relative;
+    display: inline-block;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set the color of the text */
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Adjust the font weight */
+    z-index: 2; /* Ensure the image text is displayed above the image */
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .container1 {
+      margin-top: 5%;
+    }
+    .image-text {
+      font-size: 18px;
+    }
+
+  }
+  .owl-prev, .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev { left: 20px; }
+.owl-next { right: 20px; }
+.owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;}
