@@ -45,6 +45,7 @@ a
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
 }
 
 .subline
@@ -61,12 +62,49 @@ a
     border-radius: 5px;
     color:white;
     font-size: 15px;
-    width:15%;
-    margin-left:550px;
-    margin-top: 30px;
     border:none;
     padding:15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+.divhome{
+    text-align: center;
+}
+.car-img {
+    max-width: 100%; /* Ensures the div doesn't exceed the parent width */
+    height: auto; /* Allows the height to adjust proportionally */
+    margin: 0 auto; /* Centers the div horizontally */
+  }
+  
+  .car-img img {
+    width: 100%; /* Makes the image fill the div horizontally */
+    height: auto; /* Allows the image to adjust its height proportionally */
+  }
+  
+  /* Media Queries */
+  
+  /* Small screens */
+  @media screen and (max-width: 600px) {
+    .car-img {
+      /* Define your styles for small screens here */
+    }
+  }
+  
+  /* Medium screens */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .car-img {
+      /* Define your styles for medium screens here */
+    }
+  }
+  
+  /* Large screens */
+  @media screen and (min-width: 1025px) {
+    .car-img {
+      /* Define your styles for large screens here */
+    }
+  }
+  
+
 .events
 {
     margin-top: 100px;
@@ -75,59 +113,70 @@ a
 }
 .event-h1
 {
-    color:rgb(155, 181, 238);
-    
+    color:rgb(155, 181, 238); 
 }
 .event-h2
 {
     color:#23125F;
 }
 
-.name{
-    font-size:20px;
-   margin: 10px;
-}
-.date{
-    color:rgb(155, 181, 238);
-    margin-left:20px;
-}
-.about
-{
-    margin:50px;
-    padding: 50px;
-}
-.about_btn
-{
-    background-color: #FFD700;
-    border:none;
-    border-radius: 5px;
-}
-.about_text
-{
-    margin-left: 100px;
-}
 
-.about_heading
-{
+.about {
+    margin: 50px;
+    padding: 50px;
+  }
+  
+  .about_btn {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .about_text {
+    margin-left: 100px;
+  }
+  
+  .about_heading {
     color: rgb(155, 181, 238);
     font-size: 15px;
-}
-
-.about_subline
-{
+  }
+  
+  .about_subline {
     font-size: 50px;
     font-weight: bold;
-}
+  }
+  
+  .about_des {
+    color: #6e6885;
+  }
 
-.about_des
-{
-    color:#6e6885; 
-}
-
+  .bottom-slider div{
+    margin-right: 0px !important;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .about_text {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .about_subline {
+      font-size: 30px;
+    }
+  }
+  
 .customer
 {
     background-image: linear-gradient(to right,#6fa7f0, rgb(176, 164, 223),rgb(189, 184, 211),#d1b0be,#ee91c7);
     padding:100px;
+    text-align: center;
 }
 .cust_heading
 {
@@ -141,16 +190,6 @@ a
     font-size: 20px;
     color: white;
 }
-.ceo_img
-{
-    margin-top: 30px;
-    margin-left: 500px;
-}
-.ceo_general
-{
-    margin-left: 600px;
-    margin-top: -60px;
-}
 .ceo_name
 {
     color: white;
@@ -162,10 +201,8 @@ a
     color: white;
 }
 .video{
-    margin-top: 100px;
-    margin-bottom: 250px;
-    margin-left: 100px;
-    text-align: center;
+    margin-top: 10%;
+    align-content: center;
 }
 .video_icon
 {
@@ -181,7 +218,8 @@ a
 }
 .images
 {
-    margin-top:300px;
+   width:80%;
+   height:80%
 }
 .footer
 {
@@ -244,9 +282,23 @@ ul{
 {
     color: #FFD700 ;
 }
-.container{
-    display:flex;
-    justify-content: center;
+
+
+.end-line
+{
+    text-align: center;
+
+}
+
+
+
+
+/* Event classes */
+.slider{
+    overflow-x: auto;
+}
+.contain{
+    display: flex;
 }
 .card
 {
@@ -271,4 +323,103 @@ ul{
 .card-3
 {
     background-image: url('images/service1.png');
+}
+.name{
+    font-size:20px;
+    margin: 10px;
+ }
+ .date{
+     color:rgb(155, 181, 238);
+     margin-left:20px;
+     background-color: #e4e4e4;
+     border-radius: 25px;
+     padding: 10px;
+     font-size: 15px;
+ }
+ .price
+ {
+     color:rgb(155, 181, 238);
+     font-size:20px;
+     margin: 10px;
+     margin-left: 100px;
+ }
+ .days
+ {
+     margin-left: 20px;
+     padding: 10px;
+ }
+@media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 100%;
+    }
+  }
+
+
+
+  
+.container1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+  }
+  
+  .image-overlay {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the size of the play button */
+    height: 30%; /* Adjust the size of the play button */
+    background-size: cover;
+    margin: 10%;
+    z-index: 1; /* Ensure the play button is displayed above the image text */
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set the color of the text */
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Adjust the font weight */
+    z-index: 2; /* Ensure the image text is displayed above the image */
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .container1 {
+      margin-top: 5%;
+    }
+  
+    .play-button {
+      padding-top: 20%;
+    }
+  
+    .image-text {
+      font-size: 18px;
+    }
+  }
+  
+  
+  .image-text p {
+    margin: 0;
+  }
+  
+.carousel .owl-next
+{
+  right:0;
+}
+.carousel .owl-prev{
+  left:0;
 }
