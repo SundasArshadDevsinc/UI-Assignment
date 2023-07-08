@@ -14,84 +14,42 @@ a
 
 }
 .nav-div{
-  background-color: #595959; padding: 10px; width:500px; text-align: right;
+  background-color: #595959; text-align: right;width: 500px;
 }
 .ctnbtn
 {
     background-color: #FFD700;
     border:none;
-    margin-left:20px;
-    border-radius: 5px;
-}
-.btn_text
-{
-    font-size: 10px;
-    color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 13px;
 }
 .home
 {
     color:#23125F; 
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
-    justify-content: center;
 }
-
 .subline
 {
     color:#23125F; 
-    font-size: 18px;
     margin-top: 10px;
-    text-align: center;
+    font-size: 24px;
 }
-
 .homebtn
 {
     background-image: linear-gradient(#342958, #23125F,#100538);
-    border-radius: 5px;
-    color:white;
-    font-size: 15px;
     border:none;
-    padding:15px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.divhome{
-    text-align: center;
 }
 .car-img {
     max-width: 100%;
     height: auto; 
     margin: 0 auto; 
   }
-  
   .car-img img {
     width: 100%; 
     height: auto; 
   }
-  
-  /* Media Queries */
-  
-  /* Small screens */
-  @media screen and (min-width: 600px) {
-    .nav-div {
-      background-color: white;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .owl-nav { display: none !important; }
-  }
- 
 .events
 {
-    margin-top: 100px;
-    text-align: center;
+    margin: 100px;
 }
 .event-h1
 {
@@ -101,6 +59,54 @@ a
 {
     color:#23125F;
 }
+.event-sec{
+  padding-right: -20px;
+  padding-left: 3%
+}
+/* Event CSS classes */
+.contain{
+  display: flex;
+}
+.card
+{
+ width: 450px;
+ border: none;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-image
+{
+  height:200px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.card-1
+{
+  background-image: url('images/service3.png');
+}
+.card-2
+{
+  background-image: url('images/service2.png');
+}
+.card-3
+{
+  background-image: url('images/service1.png');
+}
+.date{
+   color:rgb(155, 181, 238);
+   margin-left:15px;
+   background-color: #e4e4e4;
+}
+.price
+{
+   color:rgb(155, 181, 238);
+   margin: 10px;
+   margin-left: 100px;
+}
+.days
+{
+   margin-left: 20px;
+   padding: 10px;
+}
 .about {
     margin: 50px;
     padding: 50px;
@@ -109,75 +115,51 @@ a
   .about_btn {
     background-color: #FFD700;
     border: none;
-    border-radius: 5px;
   }
   
   .about_text {
     margin-left: 100px;
   }
-  
   .about_heading {
     color: rgb(155, 181, 238);
-    font-size: 15px;
   }
-  
   .about_subline {
-    font-size: 50px;
     font-weight: bold;
   }
-  
   .about_des {
     color: #6e6885;
   }
-
   .bottom-slider div{
     margin-right: 0px !important;
   }
-  
+  .video-des{
+    font-size: 30px;
+  }
   /* Media Queries */
   
-  @media screen and (max-width: 768px) {
-    .about {
-      margin: 20px;
-      padding: 20px;
-    }
-  
-    .about_text {
-      margin-left: 0;
-      margin-top: 20px;
-    }
-  
-    .about_subline {
-      font-size: 30px;
-    }
-  }
   
 .customer
 {
     background-image: linear-gradient(to right,#6fa7f0, rgb(176, 164, 223),rgb(189, 184, 211),#d1b0be,#ee91c7);
-    text-align: center;
 }
-.cust_heading
-{
-    text-align: center;
-    font-size: 30px;
-    color: white;
+.cus-heading{
+  font-size: 35px;
 }
-.cust_des
+.cus-text
 {
-    text-align: center;
-    font-size: 20px;
-    color: white;
+  font-size: 24px;
+}
+.ceo-text
+{
+    margin-left: 1%;
 }
 .ceo_name
 {
-    color: white;
     font-weight: bold;
 }
 .ceo_des
 {
-    margin-top: -10px;
-    color: white;
+   margin-top: -10px;
 }
 .footer
 {
@@ -247,67 +229,6 @@ ul{
     text-align: center;
 
 }
-
-/* Event CSS classes */
-.contain{
-    display: flex;
-}
-.card
-{
-   width: 450px;
-   margin:10px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-image
-{
-    height:200px;
-    margin-bottom: 15px;
-    background-size: cover;
-}
-.card-1
-{
-    background-image: url('images/service3.png');
-}
-.card-2
-{
-    background-image: url('images/service2.png');
-}
-.card-3
-{
-    background-image: url('images/service1.png');
-}
-.name{
-    font-size:20px;
-    margin: 10px;
- }
- .date{
-     color:rgb(155, 181, 238);
-     margin-left:20px;
-     background-color: #e4e4e4;
-     border-radius: 25px;
-     padding: 10px;
-     font-size: 15px;
- }
- .price
- {
-     color:rgb(155, 181, 238);
-     font-size:20px;
-     margin: 10px;
-     margin-left: 100px;
- }
- .days
- {
-     margin-left: 20px;
-     padding: 10px;
- }
-@media (max-width: 768px) {
-    .container {
-      flex-wrap: wrap;
-    }
-    .card {
-      width: 100%;
-    }
-  }
 .container1 {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -323,15 +244,47 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff; /* Set the color of the text */
-    font-size: 24px; /* Adjust the font size */
     font-weight: bold; /* Adjust the font weight */
     z-index: 2; /* Ensure the image text is displayed above the image */
   }
-  
   /* Media Queries */
+   /* Small screens */
+   @media screen and (max-width: 768px) {
+    .about {
+      margin: 20px;
+      padding: 20px;
+    }
   
+    .about_text {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .about_subline {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 100%;
+    }
+    .ceo-text{
+      font-size: 10px;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .nav-div {
+      background-color: white;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .owl-nav { display: none !important; }
+  }
+  /* Adjusting Font size with screen size*/
   @media screen and (max-width: 768px) {
     .container1 {
       margin-top: 5%;
@@ -339,7 +292,21 @@ ul{
     .image-text {
       font-size: 18px;
     }
-
+    .home{
+      font-size: 20px;
+    }
+    .subline{
+      font-size: 10px;
+    }
+    .video-des{
+      font-size: 10px;
+    }
+    .cus-text{
+      font-size: 8px;
+    }
+    .cus-heading{
+      font-size:15px ;
+    }
   }
   .owl-prev, .owl-next {
     width: 15px;
