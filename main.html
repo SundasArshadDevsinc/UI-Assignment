@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Assignment</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <!-- External CSS and font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Internal CSS Link -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- JQuery CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar Styling -->
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-transparent space-bottom"
+      >
+        <div><img src="images/logo1.png" /></div>
+
+        <div class="nav-div">
+          <button
+            class="navbar-toggler bg-dark"
+            type="button"
+            data-toggle="collaspe"
+            data-target="#navbarResponsive"
+          >
+            <span class="text-white">Menu</span>
+            <span class="" role="button"
+              ><i class="fa fa-bars" aria-hidden="true" style="color: #ffff"></i
+            ></span>
+          </button>
+        </div>
+
+        <div
+          class="collapse navbar-collapse"
+          id="navbarResponsive"
+          style="
+            justify-content: right;
+            align-self: right;
+            align-content: right;
+          "
+        >
+          <ul class="nav navbar-item ml-auto fixed">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button class="ctnbtn">
+                <i class="fa fa-phone btn_text"> +10 (67) 678 2567</i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <div id="home" class="container">
+        <div class="home">
+          Lifelong Memories are just a<br />few seconds away
+        </div>
+        <div class="subline">
+          Lets start your journey with us, your dream will come true
+        </div>
+      </div>
+      <div class="divhome">
+        <button class="homebtn">Explore Destinations</button>
+      </div>
+
+      <div class="car-img">
+        <img src="images/car.png" alt="Car Image" />
+      </div>
+      <!-- Events Description -->
+      <div class="events">
+        <h4 class="event-h1">Check Our Best Promotional Tour</h4>
+        <h1 class="event-h2">Upcoming Events</h1>
+      </div>
+      <!-- Event Cards Slider -->
+      <div
+        class="owl-carousel owl-dots"
+        style="padding-right: -20px; padding-left: 3%"
+      >
+        <div class="card">
+          <div class="card-image card-1"></div>
+          <div class="contain">
+            <p class="name">Spitzberg</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card-2"></div>
+          <div class="contain">
+            <p class="name">Mega Turkey</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card-3"></div>
+          <div class="contain">
+            <p class="name">Mega Turkey</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card-1"></div>
+          <div class="contain">
+            <p class="name">Spitzberg</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card-2"></div>
+          <div class="contain">
+            <p class="name">Finland</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card-3"></div>
+          <div class="contain">
+            <p class="name">Mega Turkey</p>
+            <p class="price">$1200</p>
+          </div>
+          <div class="contain">
+            <p class="date">12 Jan - 18 Jan</p>
+            <p class="days">5 Days</p>
+          </div>
+        </div>
+      </div>
+      <!-- About Section -->
+      <div id="about" class="row about">
+        <div class="col-lg-5">
+          <img src="images/about.png" alt="About Image" class="img-fluid" />
+        </div>
+        <div class="col-lg-5 about_text">
+          <p class="about_heading">About Us</p>
+          <p class="about_subline">Get ready for real<br />time adventure</p>
+          <p class="about_des">
+            Lets start our journey with us, your dream will come true. Lets
+            start our journey with us, your dream will come true. Lets start our
+            journey with us, your dream will come true. Lets start our journey
+            with us, your dream will come true.
+          </p>
+          <button class="about_btn btn_text">Book Your Destination</button>
+        </div>
+      </div>
+      <!-- Customer Section -->
+      <div class="customer p-5">
+        <p class="cust_heading">What customers say</p>
+        <p class="cust_des">
+          "Let's start our journey with us, your dream will come true. Lorem
+          ipsum<br />dolor sit ament, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt <br />ut labore et dolore magna aliqua.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+          <div>
+            <img src="images/founder.png" />
+          </div>
+          <div class="ml-4">
+            <p class="ceo_name">Mark Anthony</p>
+            <p class="ceo_des">CEO of Colorlib</p>
+          </div>
+        </div>
+      </div>
+      <!-- Video Section -->
+      <div class="container container1" style="position: relative">
+        <div class="image-overlay">
+          <img
+            src="images/video-bg.png"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+
+          <div class="image-text">
+            <i class="fa-regular fa-circle-play text-white fs-1"></i>
+            <p class="text-white">Watch our last tour</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Section -->
+      <div class="w-100 d-flex flex-row m-0 p-0 overflow-x-auto">
+        <div class="">
+          <img src="images/insta1.png" />
+        </div>
+        <div class="">
+          <img src="images/insta2.png" />
+        </div>
+        <div class="">
+          <img src="images/insta3.png" />
+        </div>
+        <div class="">
+          <img src="images/insta4.png" />
+        </div>
+        <div class="">
+          <img src="images/insta5.png" />
+        </div>
+      </div>
+      <!-- Footer Starts Here -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <p><img src="images/logo1.png" /></p>
+              <p class="text1">
+                Land behold it created good saw after she'd Our set
+                <br />living.Signs mindst dominion creepeth morning
+                <br />laboris nisi ufsit aliquip.
+              </p>
+              <div>
+                <a href="#"
+                  ><i class="fa-brands fa-twitter social_links"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-facebook-f social_links"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-linkedin-in social_links"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-pinterest-p social_links"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Blackforest</a></li>
+                <li><a href="#">Bodhubon</a></li>
+                <li><a href="#">Rongdhonu</a></li>
+                <li><a href="#">Meghrong</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p class="text2">
+                76/A,Green Lane, Dhanmond, NYC<br />demomail@gmail.com
+              </p>
+              <p class="num">+10(78)738-9083</p>
+            </div>
+          </div>
+        </div>
+        <div class="end-line">
+          <p class="text3">
+            Copyright &#169; 2021 All rights reserved | This template is made
+            with &#128153; by <span class="word">Cololib</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends Here -->
+    <!-- JS Links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      console.log($);
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          margin: 10,
+          nav: true,
+          navText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>",
+          ],
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
