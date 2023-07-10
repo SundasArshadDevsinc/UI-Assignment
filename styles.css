@@ -187,6 +187,7 @@ ul {
 @media (max-width: 600px) {
   .owl-nav {
     display: none !important;
+
   }
 }
 /* Adjusting Font size with screen size*/
@@ -197,6 +198,10 @@ ul {
   .home {
     font-size: 20px;
   }
+
+  }
+}
+
   .subline {
     font-size: 10px;
   }
